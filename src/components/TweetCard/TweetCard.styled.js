@@ -5,6 +5,7 @@ export const Frame = styled.div`
 position: relative;
 width: 380px;
 height: 460px;
+margin: 0 auto;
 border-radius: 20px;
 background-image: url(${picture}), linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
 background-repeat: no-repeat no-repeat;
@@ -31,22 +32,12 @@ z-index: 2;
 export const Tweets = styled.p`
 margin-top: 242px;
 text-align: center;
-font-family: 'Montserrat';
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-text-transform: uppercase;
 color: #EBD8FF;
 `
 export const Followers = styled.p`
 margin-top: 16px;
 margin-bottom: 26px;
 text-align: center;
-font-family: 'Montserrat';
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-text-transform: uppercase;
 color: #EBD8FF;
 `
 export const Button = styled.button`
@@ -58,11 +49,6 @@ margin: 0 auto;
 border-radius: 10px;
 background-color: #EBD8FF;
 color: #373737; 
-font-family: 'Montserrat';
-font-weight: 600;
-font-size: 18px;
-line-height: 1.22;
-text-transform: uppercase;
 box-shadow: 0px 3.4369285106658936px 3.4369285106658936px 0px #00000040;
 `
 export const ButtonActive = styled.button`
@@ -74,8 +60,6 @@ margin: 0 auto;
 border-radius: 10px;
 background-color: #5CD3A8;
 color: #373737; 
-font-family: 'Montserrat';
-font-weight: 600;
 font-size: 18px;
 line-height: 1.22;
 text-transform: uppercase;
